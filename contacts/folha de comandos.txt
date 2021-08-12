@@ -1,0 +1,47 @@
+Windows
+Ativar virtual env:
+cd projeto
+cd venv
+cd Scripts
+activate
+
+Linux/Mac
+. venv/bin/activate
+
+Django
+django-admin startproject blog
+
+Rodar
+python manage.py runserver
+
+Parar
+ctrl + c
+
+Criar tabelas no banco de dados
+python manage.py migrate
+
+Criar superusuario
+python manage.py createsuperuser
+
+Criar app
+python manage.py startapp nome_da_app
+
+Criar git repositorio
+git init
+
+Mostrar historio do repositorio
+git status
+
+Fazer um commit
+git add .
+git commit -m "First commit"
+git push origin master
+
+Add remote
+git remote add origin endereco
+git remote add origin https://github.com/SegateMauro/cursodjango3.git
+
+Listar branchs
+git branch -v
+
+https://html5up.net/strata
